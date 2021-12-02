@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>out-of-school-contact</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles-formulaire.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="py-5 text-center">
+        <h2 class="text-white">Contact</h2>
+        <p class="lead text-white">
+          Ceci est un formulaire de contact, appuyez sur 'envoyer' pour que je puisse recevoir vos réponse.
+        </p>
+        <p class="lead text-white">
+          Je pourrais également vous répondre dès que possible si vous inscrivez votre email ;)
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 order-md-1 offset-md-2">
+          <form class="needs-validation" novalidate="">
+            <div class="padding-left border-left border-white">
+              <div class="mb-3">
+                <label for="username"><p class="text-white">Username</p></label>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username or write 'Anonyme'"
+                    placeholder="Username or write 'Anonyme'"
+                    required=""
+                  />
+                  <div class="invalid-feedback">
+                    <p>Your username is required.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="padding-left border-left border-white">
+                <div class="mb-3">
+                  <label for="email"
+                  ><p class="text-white">Email <span class="text-muted-white">(Optional)</span></p></label
+                >
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="you@example.com"
+                  />
+                </div>
+                <!---->
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+            </div>
+            <div class="padding-left border-left border-white">
+              <div class="form-group my-3">
+                <label for="exampleFormControlTextarea1"><p class="text-white">Commentaire</p></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              </div>
+            </div>
+          </form>
+          <div class="col-md-12 text-right">
+          <button type="button" class="btn btn-ligth">Envoyer</button>
+          </div>
+        </div>
+            
+            
+      </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+html {
+  background-size: 100% auto;
+}
+
+body {
+  background: linear-gradient(#2465dd, #a1a5d1);
+}
+
+.padding-left {
+  padding-left: 2vw;
+}
